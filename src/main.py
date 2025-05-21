@@ -9,7 +9,7 @@ books = [
 ]
 
 # 全ての本を取得
-@app.route('/api/books', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_books():
     return jsonify({'books': books})
 
