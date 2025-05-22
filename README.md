@@ -8,6 +8,7 @@
 cat <<EOF >> ~/.bashrc
 export USER_UID=$(id -u)
 export USER_GID=$(id -g)
+EOF
 ```
 
 これで実行中のユーザーと同じパーミッションでファイルを生成、コンテナからコミットまでできます。
